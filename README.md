@@ -13,8 +13,11 @@ Questo semplicissimo e basilare tool mette a disposizione una cospicua lista di 
 
 ## Come usare il tool
 
-1. Cerca nella barra di ricerca un ID o il nome di ciò che cerchi
-2. Clicca sul risultato per copiare l'ID
+1. Avviare il tool aprendo il file index.html (la homepage)
+2. Cerca nella barra di ricerca un ID o il nome di ciò che cerchi
+3. Clicca sul risultato per copiare l'ID
+
+>NB: è importante che i file `.js` siano tutti presenti nella stessa cartella del tool, accompagnati dalla cartella `src`.
 
 ## Nota importante
 
