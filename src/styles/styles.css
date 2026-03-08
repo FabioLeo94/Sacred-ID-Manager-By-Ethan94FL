@@ -68,15 +68,21 @@ p {
     border: 0;
     border-bottom: 2px solid rgba(112, 128, 144, 0.568);
     background-color: rgba(0, 0, 0, 0.048);
-    padding: 6px;
+    padding: 4px 6px;
     font-size: 18px;
     font-family: 'Times New Roman', Times, serif;
     border-radius: 4px 4px 0 0;
+    outline: 0;
 }
 
 .search-box-input:hover {
     border-color: slategray;
     background-color: rgba(0, 0, 0, 0.020);
+}
+
+.search-box-input:focus {
+    border-color: slategray;
+    background-color: rgb(255, 247, 219);
 }
 
 .sections-buttons-container {
