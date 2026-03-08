@@ -17,7 +17,7 @@ Questo semplicissimo e basilare tool mette a disposizione una cospicua lista di 
 2. Cerca nella barra di ricerca un ID o il nome di ciò che cerchi
 3. Clicca sul risultato per copiare l'ID
 
->NB: è importante che i file `.js` siano tutti presenti nella stessa cartella del tool, accompagnati dalla cartella `src`.
+>NB: per il corretto funzionamento del tool è importante che i file `.js` siano tutti presenti all'interno della cartella `src`.
 
 ## Nota importante
 
