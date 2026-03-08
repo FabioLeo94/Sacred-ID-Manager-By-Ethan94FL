@@ -18,7 +18,6 @@ document.body.onload = () => {
             let id = tr.childNodes[0].textContent;
             let value = String(tr.childNodes[1].textContent);
 
-            //console.log(id, value, "Filter: " + filter);
             if (tr.children[0].tagName.toLowerCase() !== "th") {
                 if (!!filter && String(id).includes(String(filter)) || value.toLowerCase().startsWith(String(filter).toLowerCase())) {
                     tr.style.display = "table-row";
@@ -28,18 +27,15 @@ document.body.onload = () => {
                     tr.style.display = "none";
                 }
             }
-
         })
     });
-
 };
 
 function addRowData(data) {
-    //console.log("Adding rows...", data)
     if (!data) {
-        //console.log("Impossibile caricare i dati: " + data);
         return;
     }
+
     data.forEach(d => {
         const row = document.createElement("tr");
         const dataID = document.createElement("td");
@@ -65,7 +61,6 @@ function addRowData(data) {
         table.appendChild(row);
 
         row.onclick = (e) => {
-            //console.log()
             navigator.clipboard.writeText(dId);
             mostraNotifica("L'ID di \"" + dValue + "\" è stato copiato!")
         }
@@ -98,7 +93,6 @@ function loadDatabase() {
 
 
     buttons.forEach(b => {
-        //console.log(b)
         if (Number(b.getAttribute("data-databaseId")) == Number(data.id)) {
             b.setAttribute("data-isSelected", "true");
         } else {
