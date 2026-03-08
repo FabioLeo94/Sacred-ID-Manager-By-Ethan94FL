@@ -146,7 +146,7 @@ tr {
     cursor: pointer;
 }
 
-tr:nth-child(even) {
+tr:nth-child(even of :not(.hidden)) {
     background-color: #e0ecf1;
 }
 

@@ -55,7 +55,9 @@ document.body.onload = () => {
             if (tr.children[0].tagName.toLowerCase() !== "th") {
                 if (!!filter && String(id).includes(String(filter)) || value.toLowerCase().startsWith(String(filter).toLowerCase())) {
                     tr.style.display = "table-row";
+                    tr.classList.remove("hidden")
                 } else {
+                    tr.classList.add("hidden");
                     tr.style.display = "none";
                 }
             }
