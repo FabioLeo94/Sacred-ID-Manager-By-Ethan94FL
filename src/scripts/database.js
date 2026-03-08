@@ -12764,7 +12764,7 @@ const items = [
     },
     {
         "id": "4872",
-        "value": "Anello di Aarnum I."
+        "value": "Anello di Aarnum I"
     },
     {
         "id": "4873",
@@ -13180,7 +13180,7 @@ const items = [
     },
     {
         "id": "4998",
-        "value": "CARTELLO RICERCATO."
+        "value": "CARTELLO RICERCATO"
     },
     {
         "id": "4999",
